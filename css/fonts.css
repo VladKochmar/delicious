@@ -1,0 +1,10 @@
+@font-face {
+   font-family: 'Banny';
+   src: url('../fonts/Banny-BoldRound.woff2') format('woff2'),
+      url('../fonts/Banny-BoldRound.woff') format('woff');
+   font-weight: bold;
+   font-style: normal;
+   font-display: swap;
+}
+
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:regular,700@display=swap");
