@@ -1,7 +1,7 @@
-@import url("reset.css");
-@import url("fonts.css");
-@import url("common.css");
-@import url("header.css");
+@import url('reset.css');
+@import url('fonts.css');
+@import url('common.css');
+@import url('header.css');
 /* ======================================================================================================================================================== */
 body {
    font-family: 'Open Sans', sans-serif;
@@ -23,7 +23,7 @@ body._lock {
    flex: 1 1 auto;
 }
 /* ======================================================================================================================================================== */
-[class*="__container"] {
+[class*='__container'] {
    max-width: 1310px;
    margin: 0 auto;
    padding: 0 15px;
@@ -68,13 +68,13 @@ body._lock {
    position: relative;
 }
 .main-page__title::before {
-   content: "";
+   content: '';
    position: absolute;
    left: 50%;
    bottom: 0;
    width: 60px;
    height: 5px;
-   background-color: #E8C300;
+   background-color: #e8c300;
    border-radius: 50px;
    transform: translate(-50%, 0);
 }
@@ -130,7 +130,7 @@ body._lock {
 }
 .main-page__arrow-bottom::before,
 .main-page__arrow-bottom::after {
-   content: "";
+   content: '';
    position: absolute;
    top: 50%;
    left: 50%;
@@ -155,7 +155,7 @@ body._lock {
    border: 1px solid rgba(255, 255, 255, 0.2);
    border-radius: 50%;
    display: inline-flex;
-   justify-content:center;
+   justify-content: center;
    align-items: center;
    height: 60px;
    width: 60px;
@@ -422,10 +422,10 @@ body._lock {
    transition: all 0.3s ease 0s;
 }
 .tabs__title._tab-active {
-   color: #E8C300;
+   color: #e8c300;
 }
 .tabs__title:hover {
-   color: #E8C300;
+   color: #e8c300;
    background-color: rgba(224, 224, 224, 0.3);
 }
 .tabs__content {
@@ -449,6 +449,7 @@ body._lock {
    padding: 0 40px;
    display: grid;
    justify-content: center;
+   align-content: start;
 }
 .item-tab__item {
    display: flex;
@@ -553,7 +554,7 @@ body._lock {
    text-align: center;
 }
 
-@media (min-width: 991.98px){
+@media (min-width: 991.98px) {
    .slide-specialties__image {
       max-width: 475px;
       flex: 0 1 475px;
@@ -580,7 +581,7 @@ body._lock {
       transform: rotate(-180deg);
    }
 }
-@media (max-width: 991.98px){
+@media (max-width: 991.98px) {
    .main-page__body {
       flex-direction: column;
       align-items: center;
@@ -601,7 +602,7 @@ body._lock {
       row-gap: 40px;
    }
    .private-events__title {
-      writing-mode:horizontal-tb;
+      writing-mode: horizontal-tb;
    }
    .private-events__column {
       display: grid;

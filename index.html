@@ -24,7 +24,7 @@
                      <li class="menu__item"><a href="#" data-goto="#team" class="menu__link">TEAM</a></li>
                      <li class="menu__item"><a href="#" data-goto="#book" class="menu__link">BOOKING</a></li>
                   </ul>
-                  <a href="index.html" class="menu__logo"><img src="img/logo.svg" alt="Hungry People logo"></a>
+                  <div class="menu__logo"><img src="img/logo.svg" alt="Hungry People logo"></div>
                   <ul class="menu__list">
                      <li class="menu__item"><a href="#" data-goto="#menu" class="menu__link">MENU</a></li>
                      <li class="menu__item"><a href="#" data-goto="#galerie" class="menu__link">GALERIE</a></li>
@@ -41,8 +41,8 @@
                <div class="main-page__body">
                   <div class="main-page__working-time">Mon - Fri: 8PM - 10PM, Sat - Sun: 8PM - 3AM</div>
                   <div class="main-page__content">
-                     <div class="main-page__subtitle lable">RESTAURANT</div>
-                     <h1 class="main-page__title">hungry people</h1>
+                     <b class="main-page__subtitle lable">RESTAURANT</b>
+                     <h1 class="main-page__title">Delicious</h1>
                      <div class="main-page__buttons">
                         <button type="button" class="main-page__button button">BOOK TABLE</button>
                         <button type="button" class="main-page__button button button_border">EXPLORE</button>
@@ -72,7 +72,7 @@
          </section>
          <section id="team" class="our-team">
             <div class="our-team__container">
-               <div class="our-team__subtitle lable">OUR TEAM</div>
+               <b class="our-team__subtitle lable">OUR TEAM</b>
                <div class="our-team__body">
                   <div class="our-team__column">
                      <div class="our-team__image image-decore image-decore_left"><img src="img/our-team/image.jpg" alt="Image"></div>
@@ -94,11 +94,11 @@
                         <h2 class="base-construction__title">book a table</h2>
                      </div>
                      <div class="form-book__body">
-                        <div class="form-book__item"><input type="text" name="name" placeholder="Name" class="input"></div>
-                        <div class="form-book__item"><input type="email" name="email" placeholder="Email" class="input"></div>
-                        <div class="form-book__item"><input type="tel" name="phone" placeholder="Phone" class="input"></div>
+                        <div class="form-book__item"><input required type="text" name="name" placeholder="Name" class="input"></div>
+                        <div class="form-book__item"><input required type="email" name="email" placeholder="Email" class="input"></div>
+                        <div class="form-book__item"><input required type="tel" name="phone" placeholder="Phone" class="input"></div>
                         <div class="form-book__item">
-                           <select name="people" class="js-choice">
+                           <select required name="people" class="js-choice">
                               <option value="1 Persone" selected>1 Persone</option>
                               <option value="2 Persones">2 Persones</option>
                               <option value="3 Persones">3 Persones</option>
@@ -107,7 +107,7 @@
                         </div>
                         <div class="form-book__item"><input data-picker type="text" name="date" placeholder="Date (mm/dd)" class="input"></div>
                         <div class="form-book__item">
-                           <select name="time" class="js-choice">
+                           <select required name="time" class="js-choice">
                               <option value="11:00" selected>11:00</option>
                               <option value="12:00">12:00</option>
                               <option value="13:00">13:00</option>
@@ -126,7 +126,7 @@
          </section>
          <section id="galerie" class="specialties">
             <div class="specialties__container">
-               <div class="specialties__subtitle lable">specialties</div>
+               <b class="specialties__subtitle lable">specialties</b>
                <div class="specialties__swiper swiper">
                   <div class="specialties__wrapper swiper-wrapper">
                      <div class="swiper-slide slide-specialties">
@@ -830,20 +830,20 @@
          <section id="events" class="private-events">
             <div class="private-events__body">
                <div class="private-events__container">
-                  <div class="private-events__subtitle lable">PRIVATE EVENTS</div>
+                  <b class="private-events__subtitle lable">PRIVATE EVENTS</b>
                   <div class="private-events__content">
                      <div class="private-events__column private-events__column_left">
                         <div class="private-events__image image-decore image-decore_left"><img src="img/private-events/image01.jpg" alt="Image"></div>
                         <div class="private-events__title">weddings</div>
                      </div>
                      <div class="private-events__column">
-                        <div class="private-events__title private-events__title_rotate">corporate pzrties</div>
+                        <div class="private-events__title private-events__title_rotate">corporate parties</div>
                         <div class="private-events__image image-decore"><img src="img/private-events/image02.jpg" alt="Image"></div>
                      </div>
                   </div>
                   <div class="private-events__info">For private events please call: <a href="tel:+40729131637">+40 729 131 637</a>/<a href="tel:+40726458782">+40 726 458 782</a> or use the contact form.</div>
                </div>
-               <img src="img/specialties/specialty-bg.jpg" alt="Background image" class="private-events__bg-image image-bg">
+               <img src="img/private-events/bg-image.jpg" alt="Background image" class="private-events__bg-image image-bg">
             </div>
             <div class="private-events__photos">
                <div class="private-events__photo"><img src="img/private-events/image03.jpg" alt="Image"></div>
@@ -872,7 +872,7 @@
                            <div class="form__item"><img src="img/icons/phone.svg" alt="Phone" class="form__icon">
                               <div class="form__phones"><a href="tel:+40729131637" class="form__link">+40 729 131 637</a>/<a href="tel:+40726458782" class="form__link">+40 726 458 782</a></div>
                            </div>
-                           <div class="form__item"><img src="img/icons/email.svg" alt="Email" class="form__icon"><a href="#" class="form__link">office@mindblister.com</a></div>
+                           <div class="form__item"><img src="img/icons/email.svg" alt="Email" class="form__icon"><a href="mailto:office@mindblister.com" class="form__link">office@mindblister.com</a></div>
                         </div>
                         <button type="submit" class="form__button button">SEND MESSAGE</button>
                      </div>
